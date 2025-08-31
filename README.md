@@ -39,7 +39,7 @@ Below a summary of the used methodology:
 
 - All datasets have been transformed, cleaned and merged into a single Dataframe for proper processing
 
-- Conducted data cleaning
+- Conducted **data cleaning** on the new consolidated dataframe
 
 - Conducted **correlation analysis** and **multi-colinearity** processing (by removing all multi-colinear features)
 
