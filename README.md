@@ -85,7 +85,7 @@ Can we predict a country’s **Credit Rating** and **Outlook** for the current a
 ---
 
 ## 📂 Project Outline
-- [Notebook: Countries Ratings Preparation](/blob/main/Countries_ratings.ipynb)
+- [Notebook: Countries Ratings](https://github.com/IULIAN-COSTEA/Countries_Ratings/blob/main/blob/main/Countries_ratings.ipynb)
 
 ---
 
