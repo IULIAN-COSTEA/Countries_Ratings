@@ -4,7 +4,6 @@ Countries Credit Ratings Predictor Tool
 **Author**
 Iulian Costea
 
-<Br>
 #### Executive summary
 The project **Countries Ratings** is designed to predict **Country Credit Ratings** and **Country outlook** for the **current year** and **next year** for **any country in the world**.
 This information is important for companies, insitutional investors and individual investors that are looking for new investment opportunities and are continously assessing different countries' investment attractivity and their associated risks level.
@@ -61,8 +60,6 @@ Below a summary of the used methodology:
 
 #### Results
 What did your research find?
-
-<Br>
 
 ### **Overall technical findings**
 <div align="justify">
