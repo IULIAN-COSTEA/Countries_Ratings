@@ -53,7 +53,7 @@ Can we predict a country’s **Credit Rating** and **Outlook** for the current a
 2. **Feature Engineering**
    - Correlation analysis + removal of multicollinear features.
    - Target imputation (`ffill`, `bfill`).
-   - Feature imputation with multiple strategies: `polynomial_fill`, `mean_fill`, `rolling_average`, `ARIMA`, global fallback.
+   - Feature imputation with multiple strategies: `polynomial_fill`, `mean_fill`, `rolling_average`, `ARIMA`, `global fallback`.
    - PCA for dimensionality reduction (first principal components).
    - Creation of lagging features *(work in progress).*
 
@@ -72,16 +72,6 @@ Can we predict a country’s **Credit Rating** and **Outlook** for the current a
 - PCA reduced dimensionality without major performance losses.
 - **Class imbalance** in outlook prediction remains a key challenge.
 
-*(Visuals here — placeholder for results)*
-
-<div align="center">
-  <img src="data/Experiment-A_res.png" alt="Experiment A Results">
-</div>
-
-<div align="center">
-  <img src="data/Experiment-B_res.png" alt="Experiment B Results">
-</div>
-
 ---
 
 ## 🚀 Next Steps
@@ -95,9 +85,7 @@ Can we predict a country’s **Credit Rating** and **Outlook** for the current a
 ---
 
 ## 📂 Project Outline
-- [Notebook 1: Data Preparation]()
-- [Notebook 2: Feature Engineering]()
-- [Notebook 3: Modeling]()
+- [Notebook: Countries Ratings Preparation]()
 
 ---
 
