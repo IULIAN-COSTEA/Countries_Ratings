@@ -6,13 +6,18 @@ Iulian Costea
 
 #### Executive summary
 The project **Countries Ratings** is designed to predict **Country Credit Ratings** and **Country outlook** for the **current year** and **next year** for **any country in the world**.
+
 This information is important for companies, insitutional investors and individual investors that are looking for new investment opportunities and are continously assessing different countries' investment attractivity and their associated risks level.
-The countries credit ratings provided by the models in this project are following the ratig scale provided by agencies like Moody’s, Fitch or S&P. For model training historical credit ratings information from **S&P**, **Moody's** and **DBRS** has been used. 
+Countries' credit ratings provided by the models in this project are following the rating scales provided by agencies like Moody’s, Fitch or S&P. For model training historical credit ratings information from **S&P**, **Moody's** and **DBRS** has been used. 
+
 Additional information related to macroeconomic indications and demographics has been collected from **Worldbank** and **IMF**.
 
 #### Rationale
 Access to countries credit ratings although are released as public information, are not available for all countries and also are not alway updated. That's because credit rating agencies do not provide credit ratings for all countries. 
-Moreover, for the countries that are covered by the credit ratings the update period are sometime long and the most updated credit rating is not available for the present or near future. This project is a useful tool for the investors becuase provides insights into any country investment profile at any given time in the near future. (current and next year).
+
+Moreover, for the countries that are covered by the credit ratings the update period are sometime long and the most updated credit rating is not available for the present or near future. 
+
+This project is a useful tool for the investors becuase provides insights into any country investment profile at any given time in the near future. (current and next year).
 
 #### Research Question
 The tool is predicting the **Country Credit Rating** and **Country Outlook** for the **current year** and **near future (next year)**.
