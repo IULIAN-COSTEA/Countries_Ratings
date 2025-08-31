@@ -61,7 +61,8 @@ Can we predict a country’s **Credit Rating** and **Outlook** for the current a
    - Creation of lagging features *(work in progress).*
 
 3. **Modeling**
-      **Regression Models**
+
+    **Regression Models**
    - Baseline: *Work in progess*
    - Hyperparameter optimization: *Work in progess*
    - Tested models: *Work in progess*
