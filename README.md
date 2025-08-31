@@ -62,17 +62,17 @@ Can we predict a country’s **Credit Rating** and **Outlook** for the current a
 
 3. **Modeling**
 
-    **Regression Models**
-   - Baseline: *Work in progess*
-   - Hyperparameter optimization: *Work in progess*
-   - Tested models: *Work in progess*
-   - Evaluations: *Work in progess*
+      **Regression Models**
+      - Baseline: *Work in progess*
+      - Hyperparameter optimization: *Work in progess*
+      - Tested models: *Work in progess*
+      - Evaluations: *Work in progess*
      
       **Classification Models**
-   - Baseline: **DecisionTreeClassifier** for multiclass classification for two targets **ratingn** and **outlook**.
-   - Hyperparameter optimization using **RandomizedSearchCV**.
-   - Tested models: **RandomForest**, **XGBoost**, **LightGBM**, **CatBoost**.
-   - Evaluations with **Confusion Matrix**, **AUC/ROC Curves**.
+      - Baseline: **DecisionTreeClassifier** for multiclass classification for two targets **ratingn** and **outlook**.
+      - Hyperparameter optimization using **RandomizedSearchCV**.
+      - Tested models: **RandomForest**, **XGBoost**, **LightGBM**, **CatBoost**.
+      - Evaluations with **Confusion Matrix**, **AUC/ROC Curves**.
 
 ---
 
