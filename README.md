@@ -15,20 +15,19 @@ Access to countries credit ratings although are released as public information, 
 Moreover, for the countries that are covered by the credit ratings the update period are sometime long and the most updated credit rating is not available for the present or near future. This project is a useful tool for the investors becuase provides insights into any country investment profile at any given time in the near future. (current and next year).
 
 #### Research Question
-What are you trying to answer?
 The tool is predicting the **Country Credit Rating** and **Country Outlook** for the **current year** and **near future (next year)**.
 
 
 #### Data Sources
 The project uses the following data sources and datasets:
 
-- **Countries credit Ratings** - Information collected from the following source:
+- **Countries credit Ratings** - Information collected from the following sources: https://en.wikipedia.org/wiki/List_of_countries_by_credit_rating 
   
-- **Countries CPI** - Source:
+- **Countries CPI** - Source FMI: https://www.imf.org/en/Publications/WEO/weo-database/2025/april
 
-- **Countries Government Debt** - Source:
+- **Countries Government Debt** - Source FMI: https://www.imf.org/en/Publications/WEO/weo-database/2025/april
 
-- **Countries Macroeconomic Indicators** - Source:
+- **Countries Macroeconomic Indicators** - Source WorldBank: https://databank.worldbank.org/source/world-development-indicators
 
 - Initial historical data covers period 1960-2023. However, due to missing data the period used for training is **training period 1980-2023**.
 
