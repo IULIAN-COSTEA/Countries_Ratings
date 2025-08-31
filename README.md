@@ -21,7 +21,7 @@ The tool is predicting the **Country Credit Rating** and **Country Outlook** for
 #### Data Sources
 The project uses the following data sources and datasets:
 
-- **Countries credit Ratings** - Information collected from the following sources: https://en.wikipedia.org/wiki/List_of_countries_by_credit_rating 
+- **Countries credit Ratings** - Information collected from the following source: [Wikipedia](https://en.wikipedia.org/wiki/List_of_countries_by_credit_rating) 
   
 - **Countries CPI** - Source FMI: https://www.imf.org/en/Publications/WEO/weo-database/2025/april
 
