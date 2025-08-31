@@ -4,7 +4,7 @@
 
 **Author:** Iulian Costea
 
-### 📅 Last Updated
+#### 📅 Last Updated
 ![GitHub last commit](https://img.shields.io/github/last-commit/IULIAN-COSTEA/Countries_Ratings)
 
 ---
