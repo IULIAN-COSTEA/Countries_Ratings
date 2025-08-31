@@ -78,7 +78,7 @@ What did your research find?
 
 #### Outline of project
 
-- [Link to notebook 1]()
+- [Link to notebook]()
 - [Link to notebook 2]()
 - [Link to notebook 3]()
 
@@ -91,31 +91,17 @@ What did your research find?
 </div>
 
 
- 
-- The **best model from Experiment-A and also overall** is: **LogisticRegression Model** with below results:
-
 <br>
 <div align="center">
   <img src="data/Experiment-A_res.png" alt="Experiment-A Results">
 </div>
 <br>
 
-  - The best models for Experiment-B is: **Support Vector Machine (SVM)** with below results. However these rezults are below the results obtained in Experiment-A:
+TBD
 
 <br>
 <div align="center">
   <img src="data/Experiment-B_res.png" alt="Experiment-B Results">
 </div>
 <br>
-
-
-<br>
-<div align="center">
-  <img src="data/ROCs_Plot.jpg" alt="ROCs Results">
-</div>
-<br>
-
-
-
-## **Business related findings and recommendations:**
 
