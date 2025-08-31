@@ -40,8 +40,8 @@ Can we predict a country’s **Credit Rating** and **Outlook** for the current a
 | Government Debt                | [IMF WEO](https://www.imf.org/en/Publications/WEO/weo-database/2025/april) |
 | Macroeconomic Indicators       | [World Bank](https://databank.worldbank.org/source/world-development-indicators) |
 
-- Initial data coverage: **1960–2023**
-- Training period after cleaning: **1980–2023**
+- Initial data period coverage: **1960–2023**
+- Training period after cleaning data: **1980–2023**
 
 ---
 
@@ -50,7 +50,7 @@ Can we predict a country’s **Credit Rating** and **Outlook** for the current a
 1. **Data Preparation**
    - Extract, aggregate, normalize historical country ratings.
    - Map ratings to numerical values (**ratingn**).
-   - Merge with macroeconomic and demographic data.
+   - Merge all datasets to bring together macroeconomic and demographic data.
    - Clean consolidated DataFrame.
 
 2. **Feature Engineering**
@@ -61,7 +61,14 @@ Can we predict a country’s **Credit Rating** and **Outlook** for the current a
    - Creation of lagging features *(work in progress).*
 
 3. **Modeling**
-   - Baseline: **DecisionTreeClassifier** for **ratingn** (multiclass) and **outlook**.
+      **Regression Models**
+   - Baseline: *Work in progess*
+   - Hyperparameter optimization: *Work in progess*
+   - Tested models: *Work in progess*
+   - Evaluations: *Work in progess*
+     
+      **Classification Models**
+   - Baseline: **DecisionTreeClassifier** for multiclass classification for two targets **ratingn** and **outlook**.
    - Hyperparameter optimization using **RandomizedSearchCV**.
    - Tested models: **RandomForest**, **XGBoost**, **LightGBM**, **CatBoost**.
    - Evaluations with **Confusion Matrix**, **AUC/ROC Curves**.
@@ -93,7 +100,7 @@ Can we predict a country’s **Credit Rating** and **Outlook** for the current a
 ---
 
 ## 📜 License
-MIT License (or specify)
+MIT License
 
 ---
 
