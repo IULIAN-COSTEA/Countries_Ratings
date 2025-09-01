@@ -28,7 +28,7 @@ This makes the tool valuable for investors who require **up-to-date insights** i
 ---
 
 ## ❓ Research Question
-Can we predict a country’s **Credit Rating** and its **Outlook** for the current and next year using macroeconomic and demographic indicators?
+Can we predict a country’s **Credit Rating** and its **Country Outlook** for the **current** and **next year** using macroeconomic and demographic indicators?
 
 ---
 
@@ -98,7 +98,7 @@ Can we predict a country’s **Credit Rating** and its **Outlook** for the curre
 | Country Credit Ratings (yr) - DecissionTree   |   0.5469 |
 | Country Outlook (yo) - DecissionTree          |   0.5588 |
 
-
+- To be updated
 
 ---
 
