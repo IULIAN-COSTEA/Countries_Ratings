@@ -70,8 +70,8 @@ Can we predict a country’s **Credit Rating** and its **Outlook** for the curre
       - Evaluations: *Work in progess*
      
       **Classification Models**
-      - Treat *"year"* numerical category as categorical category
-      - Remove Country category from the training Dataset to create a global model
+      - Treat "year" numerical category as categorical category
+      - Remove *Country category* from the training Dataset to create a global model
       - Baseline: **DecisionTreeClassifier** for multiclass classification for two targets **ratingn** and **outlook**.
       - Hyperparameter optimization using **RandomizedSearchCV**.
       - Tested models: **RandomForest**, **XGBoost**, **LightGBM**, **CatBoost**.
@@ -91,7 +91,7 @@ Can we predict a country’s **Credit Rating** and its **Outlook** for the curre
 ## 🚀 Next Steps
 
 - [ ] Address class imbalance in *outlook* prediction (e.g., SMOTE, class weights).
-- [ ] Create lagging features from *outlook* and other features.
+- [ ] Create lagging features for *outlook* and **ratingn** targets
 - [ ] Improve imputation techniques.
 - [ ] Finalize regression models for feature predictions (current + next year).
 - [ ] Add interpretability layer (e.g., SHAP values).
