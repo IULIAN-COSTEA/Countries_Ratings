@@ -95,8 +95,8 @@ Can we predict a country’s **Credit Rating** and its **Outlook** for the curre
 ### Initial results
 | Baseline                                      | F1-Score |
 |-----------------------------------------------|----------|
-| Country Credit Ratings (yr) - DecissionTree   |  0.5469  |
-| Country Outlook (yo) - DecissionTree          |  0.5588  |
+| Country Credit Ratings (yr) - DecissionTree   |   0.5469 |
+| Country Outlook (yo) - DecissionTree          |   0.5588 |
 
 
 
