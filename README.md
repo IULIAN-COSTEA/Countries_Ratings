@@ -70,27 +70,41 @@ Can we predict a country’s **Credit Rating** and its **Outlook** for the curre
       - Evaluations: *Work in progess*
      
       **Classification Models**
-      - Treat "year" numerical category as categorical category
-      - Remove *Country category* from the training Dataset to create a global model
+      - Classification models predicted two targets Country Credit Rating - **ratingn** and Country Outlook - **outlook**
+      - Although "year" is a numerical category in the pre-processing phase was modeled as a categorical category
+      - I've removed *Country category* from the training Dataset to prevent country bias and develop a global prediction models
       - Baseline: **DecisionTreeClassifier** for multiclass classification for two targets **ratingn** and **outlook**.
       - Hyperparameter optimization using **RandomizedSearchCV**.
       - Tested models: **RandomForest**, **XGBoost**, **LightGBM**, **CatBoost**.
       - Evaluations with **Confusion Matrix**, **AUC/ROC Curves**.
+      - As key evaluation metrics I've used **F1-Score** for overall model evaluation and **Precision** and **Recall** for each class performance evaluation  
 
 ---
 
 ## 📈 Results
 
 ### Overall Technical Findings
-- Feature imputation strategies improved data coverage significantly.
-- PCA reduced dimensionality without major performance losses.
-- **Class imbalance** in outlook prediction remains a key challenge.
+- Feature imputation strategies improved data coverage significantly and allowed for a broader model usage (both numerical and categorical models).
+- Multi-colinearity analysis and removal technique helped to remove many features and optimize the working dataframe size.
+- PCA further reduced dimensionality without major performance losses (95%).
+
+### Challenges
+- **Imputation techniques** is a real challenge due to the nature of data and overall data sparcity
+- **Class imbalance** in *outlook* prediction remains a key challenge.
+
+### Initial results
+| Baseline                                      | F1-Score |
+|-----------------------------------------------|----------|
+| Country Credit Ratings (yr) - DecissionTree   |  0.5469  |
+| Country Outlook (yo) - DecissionTree          |  0.5588  |
+
+
 
 ---
 
 ## 🚀 Next Steps
 
-- [ ] Address class imbalance in *outlook* prediction (e.g., SMOTE, class weights).
+- [ ] Address class imbalance in *outlook* and *ratingn* predictions (e.g., SMOTE, class weights).
 - [ ] Create lagging features for *outlook* and **ratingn** targets
 - [ ] Improve imputation techniques.
 - [ ] Finalize regression models for feature predictions (current + next year).
