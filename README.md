@@ -12,15 +12,15 @@
 ## 📌 Executive Summary
 The **Countries Ratings** project is designed to predict **Country Credit Ratings** and **Country Outlook** for the **current year** and the **next year** for **any country worldwide**.
 
-This information is critical for companies, institutional investors, and individual investors seeking new investment opportunities and assessing different countries' investment attractiveness and associated risk levels.
+This information is critical for **companies**, **institutional investors**, and **individual investors** seeking new investment opportunities and assessing different countries' investment attractiveness and associated risk levels.
 
 Predictions follow the rating scales provided by agencies like **Moody’s**, **Fitch**, and **S&P**. Historical credit rating data from **S&P**, **Moody’s**, and **DBRS** has been used for model training. Additional macroeconomic and demographic data has been collected from **World Bank** and **IMF**.
 
 ---
 
 ## 🎯 Rationale
-- Not all countries have official credit ratings.
-- Even when available, ratings are often updated infrequently.
+- Not all countries have official credit ratings, and this is an issue for investors that want to invest is countries that do not have credit ratings.
+- Even when available, ratings are often updated infrequently. This is because credit ratings agencies release the updates based on a particular schedule wich is not always frequent enough.
 - This tool provides **timely predictions** of ratings and outlooks for **current and near-future years**.
 
 This makes the tool valuable for investors who require **up-to-date insights** into a country’s investment profile.
@@ -28,7 +28,7 @@ This makes the tool valuable for investors who require **up-to-date insights** i
 ---
 
 ## ❓ Research Question
-Can we predict a country’s **Credit Rating** and **Outlook** for the current and next year using macroeconomic and demographic indicators?
+Can we predict a country’s **Credit Rating** and its **Outlook** for the current and next year using macroeconomic and demographic indicators?
 
 ---
 
@@ -49,8 +49,9 @@ Can we predict a country’s **Credit Rating** and **Outlook** for the current a
 
 1. **Data Preparation**
    - Extract, aggregate, normalize historical country ratings.
-   - Map ratings to numerical values (**ratingn**).
-   - Merge all datasets to bring together macroeconomic and demographic data.
+   - Map ratings to numerical values (**ratingn**) to ensure proper normalization of the credit ratings labels.
+   - Consolidate outlook label to clean the outlook multiclass 
+   - Transform and merge all different datasets to bring together macroeconomic and demographic data.
    - Clean consolidated DataFrame.
 
 2. **Feature Engineering**
@@ -69,6 +70,8 @@ Can we predict a country’s **Credit Rating** and **Outlook** for the current a
       - Evaluations: *Work in progess*
      
       **Classification Models**
+      - Treat *"year"* numerical category as categorical category
+      - Remove Country category from the training Dataset to create a global model
       - Baseline: **DecisionTreeClassifier** for multiclass classification for two targets **ratingn** and **outlook**.
       - Hyperparameter optimization using **RandomizedSearchCV**.
       - Tested models: **RandomForest**, **XGBoost**, **LightGBM**, **CatBoost**.
@@ -88,7 +91,7 @@ Can we predict a country’s **Credit Rating** and **Outlook** for the current a
 ## 🚀 Next Steps
 
 - [ ] Address class imbalance in *outlook* prediction (e.g., SMOTE, class weights).
-- [ ] Refine lagging features from *outlook*.
+- [ ] Create lagging features from *outlook* and other features.
 - [ ] Improve imputation techniques.
 - [ ] Finalize regression models for feature predictions (current + next year).
 - [ ] Add interpretability layer (e.g., SHAP values).
