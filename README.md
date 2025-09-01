@@ -91,7 +91,7 @@ Can we predict a country’s **Credit Rating** and its **Outlook** for the curre
 ## 🚀 Next Steps
 
 - [ ] Address class imbalance in *outlook* prediction (e.g., SMOTE, class weights).
-- [ ] Refine lagging features from *outlook*.
+- [ ] Create lagging features from *outlook* and other features.
 - [ ] Improve imputation techniques.
 - [ ] Finalize regression models for feature predictions (current + next year).
 - [ ] Add interpretability layer (e.g., SHAP values).
