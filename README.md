@@ -36,8 +36,8 @@ Can we predict a country’s **Credit Rating** and its **Outlook** for the curre
 | Dataset                        | Source                                                                 |
 |--------------------------------|------------------------------------------------------------------------|
 | Countries Credit Ratings       | [Wikipedia](https://en.wikipedia.org/wiki/List_of_countries_by_credit_rating) |
-| CPI (Inflation)                | [IMF WEO](https://www.imf.org/en/Publications/WEO/weo-database/2025/april) |
-| Government Debt                | [IMF WEO](https://www.imf.org/en/Publications/WEO/weo-database/2025/april) |
+| CPI (Inflation)                | [IMF](https://www.imf.org/en/Publications/WEO/weo-database/2025/april) |
+| Government Debt                | [IMF](https://www.imf.org/en/Publications/WEO/weo-database/2025/april) |
 | Macroeconomic Indicators       | [World Bank](https://databank.worldbank.org/source/world-development-indicators) |
 
 - Initial data period coverage: **1960–2023**
@@ -93,7 +93,7 @@ Can we predict a country’s **Credit Rating** and its **Outlook** for the curre
 - **Class imbalance** in *outlook* prediction remains a key challenge.
 
 ### Initial results
-| Baseline                                      | F1-Score |
+| Baseline results                              | F1-Score |
 |-----------------------------------------------|----------|
 | Country Credit Ratings (yr) - DecissionTree   |   0.5469 |
 | Country Outlook (yo) - DecissionTree          |   0.5588 |
