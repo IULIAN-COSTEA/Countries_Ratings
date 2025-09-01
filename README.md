@@ -49,8 +49,9 @@ Can we predict a country’s **Credit Rating** and its **Outlook** for the curre
 
 1. **Data Preparation**
    - Extract, aggregate, normalize historical country ratings.
-   - Map ratings to numerical values (**ratingn**).
-   - Merge all datasets to bring together macroeconomic and demographic data.
+   - Map ratings to numerical values (**ratingn**) to ensure proper normalization of the credit ratings labels.
+   - Consolidate outlook label to clean the outlook multiclass 
+   - Transform and merge all different datasets to bring together macroeconomic and demographic data.
    - Clean consolidated DataFrame.
 
 2. **Feature Engineering**
@@ -69,6 +70,8 @@ Can we predict a country’s **Credit Rating** and its **Outlook** for the curre
       - Evaluations: *Work in progess*
      
       **Classification Models**
+      - Treat *"year"* numerical category as categorical category
+      - Remove Country category from the training Dataset to create a global model
       - Baseline: **DecisionTreeClassifier** for multiclass classification for two targets **ratingn** and **outlook**.
       - Hyperparameter optimization using **RandomizedSearchCV**.
       - Tested models: **RandomForest**, **XGBoost**, **LightGBM**, **CatBoost**.
