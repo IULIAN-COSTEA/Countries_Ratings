@@ -108,8 +108,9 @@ Can we predict a country’s **Credit Rating** and its **Country Outlook** for t
 
 ####  2. Country Credit Rating results
 
-**XGBoost model** provided the best results across all evaluation metrics. Also, the training time was very good.
+**XGBoost model** provided the best results across all evaluation metrics. Also, the training time was very good for this model when compared with the others.
 Unexpectendly, LightGBM model was the most computationally expensive. 
+There is some overfitting present in some models. This should be handled by some further finetunning on the selected model.
 <br>
 <div align="center">
   <img src="images/yr_models_results.png" alt="Country Credit Rating - Models evaluation results">
@@ -155,6 +156,7 @@ From the classification report we can observe that minority classes have weaker 
 In this case **XGBoost model** and **RandomForest model** provided the best results across different evaluation metrics. 
 However, consideting that I prioritize precision metric I would select **XGBoost model** as the best model although  **ForestTree model** had the best F1-Score.
 Unexpectendly, again LightGBM model was the most computationally expensive.
+There is some overfitting present in some models. This should be handled by some further finetunning on the selected model.
 </div>
 
 <br>
