@@ -103,7 +103,8 @@ Can we predict a country’s **Credit Rating** and its **Country Outlook** for t
 | Country Outlook (yo) - DecissionTree          |   0.5588 |
 
 ### Country Credit Rating results
-
+**XGBoost model** provided the best results across all evaluation metrics. Also, the training time was very good.
+Unexpectendly, LightGBM model was the most computationally expensive. 
 <br>
 <div align="center">
   <img src="images/yr_models_results.png" alt="Country Credit Rating - Models evaluation results">
@@ -123,12 +124,19 @@ Can we predict a country’s **Credit Rating** and its **Country Outlook** for t
 </div>
 <br>
 
+<div align="justify">
+From the classification report we can observe that minority classes have weaker results than the other classes. This indicates that there is additional room for improvement with regards to minoriry classes models performances. Some techniques that address unbalanced data challenges should be considered for further improvements.  
+</div>
+
 <br>
 <div align="center">
   <img src="images/yr_class_report.png" width="300" height="700" alt="Country Credit Rating - Classification Report">
 </div>
 <br>
 
+<div align="justify">
+Below ROC curves shows pretty good results for each class with few exceptions related to minority classes. **Micro-Average AUC** of **0.98** is a robust result.
+</div>
 <br>
 <div align="center">
   <img src="images/yr_ROC.png" width="500" height="500" alt="Country Credit Rating - ROC Curve">
@@ -136,6 +144,12 @@ Can we predict a country’s **Credit Rating** and its **Country Outlook** for t
 <br>
 
 ### Country Outlook results
+<div align="justify">
+In this case **XGBoost model** and **RandomForest model** provided the best results across different evaluation metrics. 
+However, consideting that I prioritize precision metric I would select **XGBoost model** as the best model although  **ForestTree model** had the best F1-Score.
+Unexpectendly, again LightGBM model was the most computationally expensive.
+</div>
+
 <br>
 <div align="center">
   <img src="images/yo_models_results.png" alt="Country Outlook - Models evaluation results">
@@ -149,6 +163,9 @@ Can we predict a country’s **Credit Rating** and its **Country Outlook** for t
 </div>
 <br>
 
+<div align="justify">
+In this case confusion matrix shows that minority classes "Positive" and "Negative" are not performing very well. This could be addressed by dealing with unbalanced nature of the data set and also throguh some extend by feature engineering (adding lagging features) 
+</div>
 <br>
 <div align="center">
   <img src="images/yo_conf_matrix.png" width="400" height="400" alt="Country Outlook - Confusion Matrix">
@@ -161,6 +178,9 @@ Can we predict a country’s **Credit Rating** and its **Country Outlook** for t
 </div>
 <br>
 
+<div align="justify">
+Below ROC curves show modest results for each class. **Micro-Average AUC** of **0.95** is mainly driven by the majority class performance and is misleading in this case.
+</div>
 <br>
 <div align="center">
   <img src="images/yo_ROC.png" width="500" height="500" alt="Country Outlook - ROC Curve">
