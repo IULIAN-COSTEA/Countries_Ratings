@@ -23,6 +23,7 @@ Predictions follow the rating scales provided by agencies like **Moody’s**, **
 
 ## 🎯 Rationale
 <div align="justify">
+   
 - Not all countries have official credit ratings, and this is an issue for investors that want to invest is countries that do not have credit ratings.
 - Even when available, ratings are often updated infrequently. This is because credit ratings agencies release the updates based on a particular schedule wich is not always frequent enough.
 - This tool provides **timely predictions** of ratings and outlooks for **current and near-future years**.
@@ -32,6 +33,7 @@ This makes the tool valuable for investors who require **up-to-date insights** i
 ---
 
 ## ❓ Research Question
+
 Can we predict a country’s **Credit Rating** and its **Country Outlook** for the **current** and **next year** using macroeconomic and demographic indicators?
 
 ---
@@ -131,6 +133,7 @@ There is some overfitting present in some models. This should be handled by some
 <br>
 
 <div align="justify">
+   
 From the classification report we can observe that minority classes have weaker results than the other classes. This indicates that there is additional room for improvement with regards to minoriry classes models performances. Some techniques that address unbalanced data challenges should be considered for further improvements.  
 </div>
 
@@ -142,7 +145,9 @@ From the classification report we can observe that minority classes have weaker 
 
 <div align="justify">
 
-   Below ROC curves shows pretty good results for each class with few exceptions related to minority classes. **Micro-Average AUC** of **0.98** is a robust result.
+   Below ROC curves shows pretty good results for each class with few exceptions related to minority classes. 
+   **Micro-Average AUC** of **0.98** is a robust result.
+   
 </div>
 <br>
 <div align="center">
@@ -174,7 +179,8 @@ There is some overfitting present in some models. This should be handled by some
 
 <div align="justify">
 
-In this case confusion matrix shows that minority classes "Positive" and "Negative" are not performing very well. This could be addressed by dealing with unbalanced nature of the data set and also throguh some extend by feature engineering (adding lagging features) 
+In this case confusion matrix shows that minority classes "Positive" and "Negative" are not performing very well. 
+This could be addressed by dealing with unbalanced nature of the data set and also throguh some extend by feature engineering (adding lagging features) 
 </div>
 <br>
 <div align="center">
