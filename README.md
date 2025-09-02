@@ -201,7 +201,7 @@ In this case confusion matrix shows that minority classes "Positive" and "Negati
 ## 🚀 Next Steps
 
 - [ ] Address class imbalance in *outlook* and *ratingn* predictions (e.g., SMOTE, class weights).
-- [ ] Create lagging features for *outlook* and **ratingn** targets
+- [ ] Create lagging features for **outlook** and **ratingn** targets
 - [ ] Improve imputation techniques.
 - [ ] Finalize regression models for feature predictions (current + next year).
 - [ ] Add interpretability layer (e.g., SHAP values).
