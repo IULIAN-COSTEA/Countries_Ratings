@@ -104,6 +104,7 @@ Can we predict a country’s **Credit Rating** and its **Country Outlook** for t
 | Country Credit Ratings (yr) - DecissionTree   |   0.5469 |
 | Country Outlook (yo) - DecissionTree          |   0.5588 |
 
+
 ####  2. Country Credit Rating results
 
 **XGBoost model** provided the best results across all evaluation metrics. Also, the training time was very good.
