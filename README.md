@@ -10,21 +10,23 @@
 ---
 
 ## 📌 Executive Summary
+<div align="justify">
 The **Countries Ratings** project is designed to predict **Country Credit Ratings** and **Country Outlook** for the **current year** and the **next year** for **any country worldwide**.
 
 This information is critical for **companies**, **institutional investors**, and **individual investors** seeking new investment opportunities and assessing different countries' investment attractiveness and associated risk levels.
 
 Predictions follow the rating scales provided by agencies like **Moody’s**, **Fitch**, and **S&P**. Historical credit rating data from **S&P**, **Moody’s**, and **DBRS** has been used for model training. Additional macroeconomic and demographic data has been collected from **World Bank** and **IMF**.
-
+</div>
 ---
 
 ## 🎯 Rationale
+<div align="justify">
 - Not all countries have official credit ratings, and this is an issue for investors that want to invest is countries that do not have credit ratings.
 - Even when available, ratings are often updated infrequently. This is because credit ratings agencies release the updates based on a particular schedule wich is not always frequent enough.
 - This tool provides **timely predictions** of ratings and outlooks for **current and near-future years**.
 
 This makes the tool valuable for investors who require **up-to-date insights** into a country’s investment profile.
-
+</div>
 ---
 
 ## ❓ Research Question
@@ -92,13 +94,44 @@ Can we predict a country’s **Credit Rating** and its **Country Outlook** for t
 - **Imputation techniques** is a real challenge due to the nature of data and overall data sparcity
 - **Class imbalance** in *outlook* prediction remains a key challenge.
 
-### Initial results
+### Baseline results
 | Baseline results                              | F1-Score |
 |-----------------------------------------------|----------|
 | Country Credit Ratings (yr) - DecissionTree   |   0.5469 |
 | Country Outlook (yo) - DecissionTree          |   0.5588 |
 
-- To be updated
+### Country Credit Rating results (yr)
+
+<br>
+<div align="center">
+  <img src="images/yr_models_results.png" alt="Country Credit Rating Models evaluation results">
+</div>
+<br>
+
+
+<br>
+<div align="center">
+  <img src="images/yr_top_features.png" alt="Country Credit Rating - Top 20 Features">
+</div>
+<br>
+
+<br>
+<div align="center">
+  <img src="images/yr_conf_matrix.png" alt="Country Credit Rating - Confusion Matrix">
+</div>
+<br>
+
+<br>
+<div align="center">
+  <img src="images/yr_class_report.png" alt="Country Credit Rating - Classification Report">
+</div>
+<br>
+
+<br>
+<div align="center">
+  <img src="images/yr_ROC.png" alt="Country Credit Rating - ROC Curve">
+</div>
+<br>
 
 ---
 
