@@ -146,6 +146,7 @@ From the classification report we can observe that minority classes have weaker 
 <div align="justify">
 
    Below ROC curves shows pretty good results for each class with few exceptions related to minority classes. 
+   
    **Micro-Average AUC** of **0.98** is a robust result.
    
 </div>
