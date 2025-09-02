@@ -96,13 +96,15 @@ Can we predict a country’s **Credit Rating** and its **Country Outlook** for t
 - **Imputation techniques** is a real challenge due to the nature of data and overall data sparcity
 - **Class imbalance** in *outlook* prediction remains a key challenge.
 
-### Baseline results
+### Results and interpretation:
+
+#### 1. Baseline results
 | Baseline results                              | F1-Score |
 |-----------------------------------------------|----------|
 | Country Credit Ratings (yr) - DecissionTree   |   0.5469 |
 | Country Outlook (yo) - DecissionTree          |   0.5588 |
 
-### Country Credit Rating results
+####  2. Country Credit Rating results
 
 **XGBoost model** provided the best results across all evaluation metrics. Also, the training time was very good.
 Unexpectendly, LightGBM model was the most computationally expensive. 
@@ -145,7 +147,7 @@ From the classification report we can observe that minority classes have weaker 
 </div>
 <br>
 
-### Country Outlook results
+#### 3. Country Outlook results
 <div align="justify">
 
 In this case **XGBoost model** and **RandomForest model** provided the best results across different evaluation metrics. 
