@@ -106,14 +106,14 @@ Can we predict a country’s **Credit Rating** and its **Country Outlook** for t
 
 <br>
 <div align="center">
-  <img src="images/yr_models_results.png" alt="Country Credit Rating - Models evaluation results">
+  <img src="images/yr_models_results.png" width="500" height="300" alt="Country Credit Rating - Models evaluation results">
 </div>
 <br>
 
 
 <br>
 <div align="center">
-  <img src="images/yr_top_features.png" alt="Country Credit Rating - Top 20 Features">
+  <img src="images/yr_top_features.png" width="500" height="300" alt="Country Credit Rating - Top 20 Features">
 </div>
 <br>
 
