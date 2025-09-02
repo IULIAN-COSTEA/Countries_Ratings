@@ -100,11 +100,11 @@ Can we predict a country’s **Credit Rating** and its **Country Outlook** for t
 | Country Credit Ratings (yr) - DecissionTree   |   0.5469 |
 | Country Outlook (yo) - DecissionTree          |   0.5588 |
 
-### Country Credit Rating results (yr)
+### Country Credit Rating results
 
 <br>
 <div align="center">
-  <img src="images/yr_models_results.png" alt="Country Credit Rating Models evaluation results">
+  <img src="images/yr_models_results.png" alt="Country Credit Rating - Models evaluation results">
 </div>
 <br>
 
@@ -130,6 +130,38 @@ Can we predict a country’s **Credit Rating** and its **Country Outlook** for t
 <br>
 <div align="center">
   <img src="images/yr_ROC.png" alt="Country Credit Rating - ROC Curve">
+</div>
+<br>
+
+### Country Outlook results
+<br>
+<div align="center">
+  <img src="images/yo_models_results.png" alt="Country Outlook - Models evaluation results">
+</div>
+<br>
+
+
+<br>
+<div align="center">
+  <img src="images/yo_top_features.png" alt="Country Outlook - Top 20 Features">
+</div>
+<br>
+
+<br>
+<div align="center">
+  <img src="images/yo_conf_matrix.png" alt="Country Outlook - Confusion Matrix">
+</div>
+<br>
+
+<br>
+<div align="center">
+  <img src="images/yo_class_report.png" alt="Country Outlook - Classification Report">
+</div>
+<br>
+
+<br>
+<div align="center">
+  <img src="images/yo_ROC.png" alt="Country Outlook - ROC Curve">
 </div>
 <br>
 
