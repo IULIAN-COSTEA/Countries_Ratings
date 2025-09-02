@@ -106,32 +106,32 @@ Can we predict a country’s **Credit Rating** and its **Country Outlook** for t
 
 <br>
 <div align="center">
-  <img src="images/yr_models_results.png" width="500" height="300" alt="Country Credit Rating - Models evaluation results">
+  <img src="images/yr_models_results.png" alt="Country Credit Rating - Models evaluation results">
 </div>
 <br>
 
 
 <br>
 <div align="center">
-  <img src="images/yr_top_features.png" width="500" height="300" alt="Country Credit Rating - Top 20 Features">
+  <img src="images/yr_top_features.png" width="800" height="800" alt="Country Credit Rating - Top 20 Features">
 </div>
 <br>
 
 <br>
 <div align="center">
-  <img src="images/yr_conf_matrix.png" alt="Country Credit Rating - Confusion Matrix">
+  <img src="images/yr_conf_matrix.png" width="500" height="500" alt="Country Credit Rating - Confusion Matrix">
 </div>
 <br>
 
 <br>
 <div align="center">
-  <img src="images/yr_class_report.png" alt="Country Credit Rating - Classification Report">
+  <img src="images/yr_class_report.png" width="300" height="700" alt="Country Credit Rating - Classification Report">
 </div>
 <br>
 
 <br>
 <div align="center">
-  <img src="images/yr_ROC.png" alt="Country Credit Rating - ROC Curve">
+  <img src="images/yr_ROC.png" width="500" height="500" alt="Country Credit Rating - ROC Curve">
 </div>
 <br>
 
@@ -145,25 +145,25 @@ Can we predict a country’s **Credit Rating** and its **Country Outlook** for t
 
 <br>
 <div align="center">
-  <img src="images/yo_top_features.png" alt="Country Outlook - Top 20 Features">
+  <img src="images/yo_top_features.png" width="800" height="800" alt="Country Outlook - Top 20 Features">
 </div>
 <br>
 
 <br>
 <div align="center">
-  <img src="images/yo_conf_matrix.png" alt="Country Outlook - Confusion Matrix">
+  <img src="images/yo_conf_matrix.png" width="400" height="400" alt="Country Outlook - Confusion Matrix">
 </div>
 <br>
 
 <br>
 <div align="center">
-  <img src="images/yo_class_report.png" alt="Country Outlook - Classification Report">
+  <img src="images/yo_class_report.png" width="300" alt="Country Outlook - Classification Report">
 </div>
 <br>
 
 <br>
 <div align="center">
-  <img src="images/yo_ROC.png" alt="Country Outlook - ROC Curve">
+  <img src="images/yo_ROC.png" width="500" height="500" alt="Country Outlook - ROC Curve">
 </div>
 <br>
 
