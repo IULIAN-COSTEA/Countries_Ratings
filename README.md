@@ -120,7 +120,7 @@ There is some overfitting present in some models. This should be handled by some
 
 <br>
 <div align="center">
-  <img src="images/yr_top_features.png" width="800" height="800" alt="Country Credit Rating - Top 20 Features">
+  <img src="images/yr_features_importance.png" width="800" height="800" alt="Country Credit Rating - Top 20 Features">
 </div>
 <br>
 
@@ -168,7 +168,7 @@ There is some overfitting present in some models. This should be handled by some
 
 <br>
 <div align="center">
-  <img src="images/yo_top_features.png" width="800" height="800" alt="Country Outlook - Top 20 Features">
+  <img src="images/yo_features_importance.png" width="800" height="800" alt="Country Outlook - Top 20 Features">
 </div>
 <br>
 
