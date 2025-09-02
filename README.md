@@ -95,7 +95,7 @@ Can we predict a country’s **Credit Rating** and its **Country Outlook** for t
 - PCA further reduced dimensionality without major performance losses (95%).
 
 ### Challenges
-- **Imputation techniques** is a real challenge due to the nature of data and overall data sparcity
+- **Imputation techniques** is a real challenge due to the nature and overall data sparcity.
 - **Class imbalance** in *outlook* prediction remains a key challenge.
 
 ### Results and interpretation:
