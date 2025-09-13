@@ -61,58 +61,52 @@ Can we predict a country’s **Credit Rating** and its **Country Outlook** for t
    - Clean consolidated DataFrame.
 
 2. **Feature Engineering**
-   - Correlation analysis + removal of multicollinear features.
+   - Correlation analysis + removal of multicollinear features conducted in two stages.
    - Target imputation (`ffill`, `bfill`).
    - Feature imputation with multiple strategies: `polynomial_fill`, `mean_fill`, `rolling_average`, `ARIMA`, `global fallback`.
    - PCA for dimensionality reduction (first principal components).
-   - Creation of lagging features *(work in progress).*
+   - Improved minority class imbalance using **BorderlineSMOTE** and **ADASYN** oversampling techniques 
 
 3. **Modeling**
-
-      **Regression Models**
-      - Baseline: *Work in progess*
-      - Hyperparameter optimization: *Work in progess*
-      - Tested models: *Work in progess*
-      - Evaluations: *Work in progess*
      
       **Classification Models**
-      - Classification models predicted two targets Country Credit Rating - **ratingn** and Country Outlook - **outlook**
-      - Although "year" is a numerical category in the pre-processing phase was modeled as a categorical category
-      - I've removed *Country category* from the training Dataset to prevent country bias and develop a global prediction models
+      - Classification models predicts two targets: Country Credit Rating - **ratingn** and Country Outlook - **outlook**
+      - Although "year" is a numerical category in the pre-processing phase I have decided to model it as a categorical feature
+      - I've removed *Country category* from the training Dataset to prevent country bias and develop a global prediction model
       - Baseline: **DecisionTreeClassifier** for multiclass classification for two targets **ratingn** and **outlook**.
       - Hyperparameter optimization using **RandomizedSearchCV**.
-      - Tested models: **RandomForest**, **XGBoost**, **LightGBM**, **CatBoost**.
+      - Tested models: **RandomForest**, **XGBoost**, **LightGBM**.
       - Evaluations with **Confusion Matrix**, **AUC/ROC Curves**.
-      - As key evaluation metrics I've used **F1-Score** for overall model evaluation and **Precision** and **Recall** for each class performance evaluation  
+      - As key evaluation metrics I've used **F1-Score** as primary measure for the overall model evaluation, and **Precision** and **Recall** for each class performance evaluation.  
 
 ---
 
 ## 📈 Results
 
 ### Overall Technical Findings
-- Feature imputation strategies improved data coverage significantly and allowed for a broader model usage (both numerical and categorical models).
-- Multi-colinearity analysis and removal technique helped to remove many features and optimize the working dataframe size.
+- Feature imputation strategies significantly improved data coverage and allowed for a broader model usage (both numerical and categorical models).
+- Multi-colinearity analysis and removal techniques helped to select the most relevant features and optimize the working dataframe size.
 - PCA further reduced dimensionality without major performance losses (95%).
 
 ### Challenges
-- **Imputation techniques** is a real challenge due to the nature and overall data sparcity.
-- **Class imbalance** in *outlook* prediction remains a key challenge.
+- **Imputation techniques** is a real challenge due to the nature of data and the overall data sparcity.
+- **Class imbalance** particularly for *outlook* prediction remains a key challenge.
 
 ### Results and interpretation:
 
 #### 1. Baseline results
 | Baseline results                              | F1-Score |
 |-----------------------------------------------|----------|
-| Country Credit Ratings (yr) - DecissionTree   |   0.5628 |
-| Country Outlook (yo) - DecissionTree          |   0.5518 |
+| Country Credit Ratings (yr) - DecissionTree   |   0.5261 |
+| Country Outlook (yo) - DecissionTree          |   0.5271 |
 
 <br>
 
 ####  2. Country Credit Rating results
 
-**XGBoost model** provided the best results across all evaluation metrics. Also, the training time was very good for this model when compared with the others.
+**RandomForest model** provided the best results across all evaluation metrics. Also, the training time was very good for this model when compared with the others.
 Unexpectendly, LightGBM model was the most computationally expensive. 
-There is some overfitting present in some models. This should be handled by some further finetunning on the selected model.
+There is some overfitting present in some models. This should be handled by some further finetunning on the selected model at a later stage.
 <br>
 <div align="center">
   <img src="images/yr_models_results.png" alt="Country Credit Rating - Models evaluation results">
@@ -134,7 +128,7 @@ There is some overfitting present in some models. This should be handled by some
 
 <div align="justify">
    
-From the classification report we can observe that minority classes have weaker results than the other classes. This indicates that there is additional room for improvement with regards to minoriry classes models performances. Some techniques that address unbalanced data challenges should be considered for further improvements.  
+From the classification report we can observe that minority classes have weaker results than the other classes. This indicates that there is additional room for improvement with regards to minoriry classes models performances. Additional techniques that address unbalanced data challenges should be considered for further improvements. 
 </div>
 
 <br>
@@ -159,10 +153,9 @@ From the classification report we can observe that minority classes have weaker 
 #### 3. Country Outlook results
 <div align="justify">
 
-In this case **XGBoost model** and **RandomForest model** provided the best results across different evaluation metrics. 
-However, consideting that I prioritize precision metric I would select **XGBoost model** as the best model although  **ForestTree model** had the best F1-Score.
+In this case again, **RandomForest model** followed by **XGBoost model**, provided the best results across different evaluation metrics. 
 Unexpectendly, again LightGBM model was the most computationally expensive.
-There is some overfitting present in some models. This should be handled by some further finetunning on the selected model.
+Also here we can notice some overfitting present in some models. This should be handled by some further finetunning on the selected model.
 </div>
 
 <br>
@@ -197,7 +190,7 @@ This could be addressed by dealing with unbalanced nature of the data set and al
 
 <div align="justify">
 
-   Below ROC curves show modest results for each class. **Micro-Average AUC** of **0.95** is mainly driven by the majority class performance and is misleading in this case.
+   Below ROC curves show modest results for each class. **Micro-Average AUC** of **0.93** is mainly driven by the majority class performance and is misleading in this case.
 </div>
 <br>
 <div align="center">
@@ -209,7 +202,7 @@ This could be addressed by dealing with unbalanced nature of the data set and al
 
 ## 🚀 Next Steps
 
-- [ ] Address class imbalance in *outlook* and *ratingn* predictions (e.g., SMOTE, class weights).
+- [ ] Further address class imbalance in *outlook* and *ratingn* predictions
 - [ ] Try Neural Network models to improve the results
 - [ ] Improve imputation techniques
 
