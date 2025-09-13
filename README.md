@@ -104,8 +104,8 @@ Can we predict a country’s **Credit Rating** and its **Country Outlook** for t
 
 ####  2. Country Credit Rating results
 
-**RandomForest model** provided the best results across all evaluation metrics. Also, the training time was very good for this model when compared with the others.
-Unexpectendly, LightGBM model was the most computationally expensive. 
+**RandomForest model** provided the best results with an **F1-Score** of **71.10%** across all evaluation metrics. Also, the training time was very good for this model when compared with the others.
+Unexpectendly, *LightGBM model* was the most computationally expensive. 
 There is some overfitting present in some models. This should be handled by some further finetunning on the selected model at a later stage.
 <br>
 <div align="center">
@@ -128,7 +128,9 @@ There is some overfitting present in some models. This should be handled by some
 
 <div align="justify">
    
-From the classification report we can observe that minority classes have weaker results than the other classes. This indicates that there is additional room for improvement with regards to minoriry classes models performances. Additional techniques that address unbalanced data challenges should be considered for further improvements. 
+From the classification report we can observe that minority classes have weaker results than the other classes. 
+This indicates that there is additional room for improvement with regards to minoriry classes models performances. 
+Additional techniques that address unbalanced data challenges should be considered for further improvements. 
 </div>
 
 <br>
@@ -153,8 +155,8 @@ From the classification report we can observe that minority classes have weaker 
 #### 3. Country Outlook results
 <div align="justify">
 
-In this case again, **RandomForest model** followed by **XGBoost model**, provided the best results across different evaluation metrics. 
-Unexpectendly, again LightGBM model was the most computationally expensive.
+In this case again, **RandomForest model** with an **F1-Score** of **63.10%** followed by *XGBoost model*, provided the best results across different evaluation metrics. 
+Unexpectendly, again *LightGBM model* was the most computationally expensive.
 Also here we can notice some overfitting present in some models. This should be handled by some further finetunning on the selected model.
 </div>
 
