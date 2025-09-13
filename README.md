@@ -210,10 +210,8 @@ This could be addressed by dealing with unbalanced nature of the data set and al
 ## 🚀 Next Steps
 
 - [ ] Address class imbalance in *outlook* and *ratingn* predictions (e.g., SMOTE, class weights).
-- [ ] Create lagging features for **outlook** and **ratingn** targets
-- [ ] Improve imputation techniques.
-- [ ] Finalize regression models for feature predictions (current + next year).
-- [ ] Add interpretability layer (e.g., SHAP values).
+- [ ] Try Neural Network models to improve the results
+- [ ] Improve imputation techniques
 
 ---
 
