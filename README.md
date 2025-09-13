@@ -178,7 +178,7 @@ Also here we can notice some overfitting present in some models. This should be 
 
 <div align="justify">
 
-In this case confusion matrix shows that minority classes *"Positive"* and *"Negative"* are not performing very well. 
+In this case **Confusion Matrix** shows that minority classes *"Positive"* and *"Negative"* are not performing very well. 
 This could be addressed by dealing with unbalanced nature of the data set and also throguh some extend by feature engineering (adding lagging features) 
 </div>
 <br>
