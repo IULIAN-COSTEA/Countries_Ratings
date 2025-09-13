@@ -121,6 +121,8 @@ There is some overfitting present in some models. This should be handled by some
 </div>
 <br>
 
+Below **Confusion Matrix** reveals that only minority classes with very few samples are the ones that perform poorly. This indicates that additional oversampling might be required for an improved results for the minority classes.
+
 <br>
 <div align="center">
   <img src="images/yr_conf_matrix.png" width="500" height="500" alt="Country Credit Rating - Confusion Matrix">
