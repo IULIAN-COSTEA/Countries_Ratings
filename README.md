@@ -215,7 +215,7 @@ This could be addressed by dealing with unbalanced nature of the data set and al
 ## 📂 Project Outline
 - [Notebook: Countries Ratings](Countries_ratings.ipynb)
 - [Images folder](images/)
-- [Datasets folder:](data/)
+- [Datasets folder](data/)
 
 ---
 
