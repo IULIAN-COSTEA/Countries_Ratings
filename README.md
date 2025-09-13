@@ -113,12 +113,7 @@ There is some overfitting present in some models. This should be handled by some
 </div>
 <br>
 
-Hyperparameters for the best model, **RandomForest** are provided below:
-<br>
-<div align="center">
-  <img src="images/yr_best_model.png" alt="Country Credit Rating - Hyperparameters">
-</div>
-<br>
+**Top 20 features** by importance for the best model, **RandomForest** are provided below:
 
 <br>
 <div align="center">
@@ -172,12 +167,7 @@ Also here we can notice some overfitting present in some models. This should be 
 </div>
 <br>
 
-Hyperparameters for the best model, **RandomForest** are provided below:
-<br>
-<div align="center">
-  <img src="images/yo_best_model.png" alt="Country Credit Rating - Hyperparameters">
-</div>
-<br>
+**Top 20 features** by importance for the best model, **RandomForest** are provided below:
 
 <br>
 <div align="center">
