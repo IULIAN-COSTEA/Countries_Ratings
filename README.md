@@ -143,7 +143,6 @@ Additional techniques that address unbalanced data challenges should be consider
 <div align="justify">
 
    Below ROC curves shows pretty good results for each class with few exceptions related to minority classes. 
-   
    **Micro-Average AUC** of **0.98** is a robust result.
    
 </div>
