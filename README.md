@@ -24,8 +24,8 @@ Predictions follow the rating scales provided by agencies like **Moody’s**, **
 ## 🎯 Rationale
 <div align="justify">
    
-- Not all countries have official credit ratings, and this is an issue for investors that want to invest is countries that do not have credit ratings.
-- Even when available, ratings are often updated infrequently. This is because credit ratings agencies release the updates based on a particular schedule wich is not always frequent enough.
+- Not all countries have official credit ratings, and this is an issue for investors that want to invest in countries that do not have credit ratings.
+- Even when available, ratings are often updated infrequently. This is because credit ratings agencies release the updates based on a particular schedule which is not always frequent enough.
 - This tool provides **timely predictions** of ratings and outlooks for **current and near-future years**.
 
 This makes the tool valuable for investors who require **up-to-date insights** into a country’s investment profile.
