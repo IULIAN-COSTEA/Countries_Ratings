@@ -20,7 +20,7 @@ The model is trained on historical credit ratings from **S&P**, **Moody’s**, a
 
 The Country Rating Prediction Tool delivers on-demand ratings and outlooks for any selected country, providing investors with timely, data-driven insights into sovereign creditworthiness and investment risk.
 
-- [Project Final Report](final_report/Project_Final_Report.pdf)
+- [Project Final Report](blob/main/final_report/Countries_Ratings_Final%20Report.pdf)
 
 </div>
 ---
