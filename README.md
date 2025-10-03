@@ -12,21 +12,27 @@
 ## 📌 Executive Summary
 <div align="justify">
    
-The **Countries Ratings** project is designed to predict **Country Credit Ratings** and **Country Outlook** for the **current year** and the **next year** for **any country worldwide**.
+The **Countries Ratings** Project is designed to predict sovereign credit ratings and outlooks for the current year or any future year where macroeconomic forecasts are available. 
 
-This information is critical for **companies**, **institutional investors**, and **individual investors** seeking new investment opportunities and assessing different countries' investment attractiveness and associated risk levels.
+This capability is critical for **companies**, **institutional investors**, and **individuals** who need to evaluate new opportunities, compare investment attractiveness across countries, and assess associated risk levels.
 
-Predictions follow the rating scales provided by agencies like **Moody’s**, **Fitch**, and **S&P**. Historical credit rating data from **S&P**, **Moody’s**, and **DBRS** has been used for model training. Additional macroeconomic and demographic data has been collected from **World Bank** and **IMF**.
+The model is trained on historical credit ratings from **S&P**, **Moody’s**, and **DBRS**, combined with macroeconomic and demographic data sourced from the **World Bank** and **IMF**. Predictions are aligned with the rating scales used by leading agencies such as Moody’s, Fitch, and S&P.
+
+The Country Rating Prediction Tool delivers on-demand ratings and outlooks for any selected country, providing investors with timely, data-driven insights into sovereign creditworthiness and investment risk.
 
 </div>
 ---
 
 ## 🎯 Rationale
 <div align="justify">
-   
-- Not all countries have official credit ratings, and this is an issue for investors that want to invest in countries that do not have credit ratings.
-- Even when available, ratings are often updated infrequently. This is because credit ratings agencies release the updates based on a particular schedule which is not always frequent enough.
-- This tool provides **timely predictions** of ratings and outlooks for **current and near-future years**.
+
+Currently, there are a few problems with the Country Ratings provided by the rating agencies:
+
+1.	Not all countries have official credit ratings, and this is an issue for investors that want to invest in countries that do not have country ratings.
+ 
+2.	Even when available, ratings are often updated infrequently. This is because credit ratings agencies release the updates based on a particular schedule which is not always frequent enough.
+
+This tool provides **timely predictions** of ratings and country outlooks for **current and near-future years**.
 
 This makes the tool valuable for investors who require **up-to-date insights** into a country’s investment profile.
 </div>
