@@ -87,7 +87,7 @@ Can we predict a country’s **Credit Rating** and its **Country Outlook** for t
       - I've removed *Country category* from the training Dataset to prevent country bias and develop a global prediction model
       - Baseline: **DecisionTreeClassifier** for multiclass classification for two targets **ratingn** and **outlook**.
       - Hyperparameter optimization using **RandomizedSearchCV**.
-      - Tested models: **RandomForest**, **XGBoost**, **LightGBM**.
+      - Tested models: **RandomForest**, **XGBoost**, **LightGBM**, **ExtraTrees**, **HistGradientBoosting**.
       - Evaluations with **Confusion Matrix**, **AUC/ROC Curves**.
       - As key evaluation metrics I've used **F1-Score** as primary measure for the overall model evaluation, and **Precision** and **Recall** for each class performance evaluation.  
 
