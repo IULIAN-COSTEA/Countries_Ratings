@@ -220,8 +220,9 @@ This could be addressed by dealing with unbalanced nature of the data set and al
 ## 🚀 Next Steps
 
 - [ ] Further address class imbalance in *outlook* and *ratingn* predictions
-- [ ] Try Neural Network models to improve the results
+- [ ] Collect more data for minority classes
 - [ ] Improve imputation techniques
+- [ ] Try new models to improve the results for *country Outlook* predictions
 
 ---
 
