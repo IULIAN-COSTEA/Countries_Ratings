@@ -20,6 +20,10 @@ The model is trained on historical credit ratings from **S&P**, **Moody’s**, a
 
 The Country Rating Prediction Tool delivers on-demand ratings and outlooks for any selected country, providing investors with timely, data-driven insights into sovereign creditworthiness and investment risk.
 
+## 📂 Project Outline
+- [Notebook: Countries Ratings](Countries_ratings.ipynb)
+- [Images folder](images/)
+- [Datasets folder](data/)
 - [Project Final Report](/final_report/Countries_Ratings_Final_Report.pdf)
 
 </div>
@@ -218,14 +222,6 @@ This could be addressed by dealing with unbalanced nature of the data set and al
 - [ ] Further address class imbalance in *outlook* and *ratingn* predictions
 - [ ] Try Neural Network models to improve the results
 - [ ] Improve imputation techniques
-
----
-
-## 📂 Project Outline
-- [Notebook: Countries Ratings](Countries_ratings.ipynb)
-- [Images folder](images/)
-- [Datasets folder](data/)
-- [Project Final Report](/final_report/Countries_Ratings_Final_Report.pdf)
 
 ---
 
