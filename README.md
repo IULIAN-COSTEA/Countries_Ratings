@@ -225,6 +225,7 @@ This could be addressed by dealing with unbalanced nature of the data set and al
 - [Notebook: Countries Ratings](Countries_ratings.ipynb)
 - [Images folder](images/)
 - [Datasets folder](data/)
+- [Project Final Report](/final_report/Countries_Ratings_Final_Report.pdf)
 
 ---
 
